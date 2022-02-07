@@ -1,0 +1,32 @@
+body {
+  background-color: aqua;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: red;
+  -webkit-text-stroke:1px black;
+  font-family: Luckiest Guy;
+}
+#header {
+  height:290px;
+}
+@keyframes pulse {
+  0%{
+    font-size: 65px;
+  }
+  50% {
+    font-size: 44px;
+  }
+  100% {
+    font-size: 65px;
+  }
+}
+
+.element {
+  animation: pulse 1s infinite;
+}
+
+ p {
+  
+}
