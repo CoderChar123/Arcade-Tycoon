@@ -27,6 +27,12 @@ h1 {
   animation: pulse 1s infinite;
 }
 
- p {
-  
+.reset-underline {
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+  vertical-align: middle;
+
 }
